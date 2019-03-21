@@ -1,4 +1,4 @@
 # Typed Vue Example
 
-Proyecto de ejemplo usando vue con typescript
-La app muestra una lista de zonas horarias, al seleccionar una muestra su hora actual
+Example Vue project using Typescript.
+The app shows a list of timezones and when a timezone is selected will show its current time.
