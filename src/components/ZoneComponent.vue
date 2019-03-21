@@ -6,11 +6,11 @@
   </div>
 </template>
 <script lang="ts">
-import {Component, Emit, Prop, Vue} from 'vue-property-decorator'
+import { Component, Emit, Prop, Vue } from 'vue-property-decorator'
 import { Zone } from '../models/pojo'
 
 @Component
-export default class TimeZone extends Vue {
+export default class ZoneComponent extends Vue {
   @Prop()
   private zone?: Zone
 

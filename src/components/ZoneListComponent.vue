@@ -19,7 +19,7 @@ import { Component, Emit, Prop, Vue } from 'vue-property-decorator'
 import { ZoneList } from '../models/pojo'
 
 @Component
-export default class TimeZone extends Vue {
+export default class ZoneListComponent extends Vue {
   @Prop() private zones?: ZoneList
 
   @Emit('select')
